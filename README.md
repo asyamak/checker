@@ -1,13 +1,14 @@
-## REAT API
+# REST API
 
 This is a REST API service written in Go that provides several endpoints to perform:
 
-# Endpoints
+## Endpoints
 1. /rest/substr/find
 
 This endpoint is used to find the maximum substring that does not contain any repeating characters. The input string should consist of Latin letters (uppercase and lowercase) and digits.
 Endpoint body:
 *json*
+
 `{
     "text": "asdasd"
 }`
@@ -17,6 +18,7 @@ Endpoint body:
 This endpoint is used to search for a string in the following format: "Email: email", where any number of white spaces (including line breaks) can be present instead of "", and the $email should be a string that looks like a valid email.
 Endpoint body:
 *json*
+
  `{
      "emails": ["email@mail.ru"]
  }`
