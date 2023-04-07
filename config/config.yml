@@ -1,0 +1,4 @@
+port: "8080"
+readTimeout: 15
+writeTimeout: 15
+maxHeaderBytes: 1048576
